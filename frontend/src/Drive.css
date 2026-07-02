@@ -1,0 +1,133 @@
+body{
+    background:#F4F7FC;
+    font-family:'Poppins',sans-serif;
+}
+
+.drive-page{
+    width:100%;
+    min-height:100vh;
+    padding:35px;
+    background:#F4F7FC;
+}
+
+.drive-header{
+    margin-bottom:30px;
+}
+
+.drive-header h2{
+    font-size:40px;
+    font-weight:700;
+    color:#234A7D;
+    margin-bottom:8px;
+}
+
+.drive-header p{
+    color:#6B7280;
+    font-size:16px;
+}
+
+.drive-card{
+    background:#fff;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.drive-card label{
+    font-weight:600;
+    color:#374151;
+    margin-bottom:8px;
+}
+
+.form-control{
+    height:52px;
+    border-radius:12px;
+    border:1px solid #D9E2EC;
+    transition:.3s;
+}
+
+.form-control:focus{
+    border-color:#234A7D;
+    box-shadow:0 0 0 3px rgba(35,74,125,.15);
+}
+
+.btn-group-custom{
+    margin-top:10px;
+}
+
+.custom-btn{
+    width:180px;
+    height:48px;
+    border-radius:12px;
+    font-weight:600;
+    margin-right:10px;
+}
+
+.btn-primary{
+    background:#234A7D !important;
+    border:none;
+}
+
+.btn-primary:hover{
+    background:#183A63 !important;
+}
+
+.btn-secondary{
+    border:none;
+}
+
+.table{
+    margin-top:10px;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.table thead{
+    background:#234A7D;
+    color:#fff;
+}
+
+.table thead th{
+    padding:16px;
+    border:none;
+}
+
+.table tbody td{
+    padding:15px;
+    vertical-align:middle;
+}
+
+.table tbody tr:hover{
+    background:#EEF5FF;
+}
+
+.btn-warning{
+    color:#fff;
+    border:none;
+    border-radius:8px;
+}
+
+.btn-danger{
+    border-radius:8px;
+}
+
+@media(max-width:768px){
+
+.drive-page{
+    padding:15px;
+}
+
+.drive-card{
+    padding:20px;
+}
+
+.custom-btn{
+    width:100%;
+    margin-bottom:10px;
+}
+
+.drive-header h2{
+    font-size:30px;
+}
+
+}

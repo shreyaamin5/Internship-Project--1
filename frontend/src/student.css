@@ -1,0 +1,104 @@
+body{
+    background:#F4F7FC;
+    font-family:'Poppins',sans-serif;
+}
+
+.student-page{
+    width:100%;
+    min-height:100vh;
+    padding:35px;
+    background:#F4F7FC;
+}
+
+.student-header{
+    margin-bottom:30px;
+}
+
+.student-header h2{
+    font-size:40px;
+    font-weight:700;
+    color:#234A7D;
+}
+
+.student-header p{
+    color:#6B7280;
+    font-size:16px;
+}
+
+.student-card{
+    background:#fff;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.student-card label{
+    font-weight:600;
+    color:#374151;
+}
+
+.form-control{
+    height:52px;
+    border-radius:12px;
+    border:1px solid #D9E2EC;
+}
+
+.form-control:focus{
+    border-color:#234A7D;
+    box-shadow:0 0 0 3px rgba(35,74,125,.15);
+}
+
+.custom-btn{
+    width:180px;
+    height:48px;
+    border-radius:12px;
+    font-weight:600;
+}
+
+.btn-primary{
+    background:#234A7D !important;
+    border:none;
+}
+
+.table{
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.table thead{
+    background:#234A7D;
+    color:#fff;
+}
+
+.table thead th{
+    padding:16px;
+}
+
+.table tbody td{
+    padding:15px;
+}
+
+.table tbody tr:hover{
+    background:#EEF5FF;
+}
+
+@media(max-width:768px){
+
+.student-page{
+    padding:15px;
+}
+
+.student-card{
+    padding:20px;
+}
+
+.custom-btn{
+    width:100%;
+    margin-bottom:10px;
+}
+
+.student-header h2{
+    font-size:30px;
+}
+
+}

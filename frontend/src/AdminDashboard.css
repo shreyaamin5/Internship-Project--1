@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#eef3f9;
+}
+
+.dashboard{
+    min-height:100vh;
+    background:#eef3f9;
+}
+
+.navbar{
+    height:75px;
+    background:#234A7D;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 50px;
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+}
+
+.navbar h2{
+    font-size:26px;
+    font-weight:600;
+}
+
+.logout-btn{
+    background:white;
+    color:#234A7D;
+    border:none;
+    padding:10px 22px;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+    font-weight:600;
+    transition:.3s;
+}
+
+.logout-btn:hover{
+    background:#dbe9ff;
+}
+
+.welcome{
+    text-align:center;
+    margin-top:50px;
+}
+
+.welcome h1{
+    color:#234A7D;
+    font-size:40px;
+}
+
+.welcome p{
+    margin-top:10px;
+    color:#666;
+    font-size:18px;
+}
+
+.card-container{
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    margin-top:60px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:300px;
+    background:white;
+    border-radius:20px;
+    padding:35px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.icon{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.card h2{
+    color:#234A7D;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#666;
+    margin-bottom:25px;
+}
+
+.card button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:12px;
+    background:#234A7D;
+    color:white;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.card button:hover{
+    background:#2f5fa0;
+}
+
+@media(max-width:900px){
+
+.navbar{
+    flex-direction:column;
+    height:auto;
+    padding:20px;
+}
+
+.card-container{
+    flex-direction:column;
+    align-items:center;
+}
+
+.card{
+    width:90%;
+}
+
+}
+.dashboard-layout{
+    display:grid;
+    grid-template-columns:240px 1fr 260px;
+    gap:20px;
+    padding:20px;
+}
+
+.left-sidebar,
+.right-sidebar{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.side-card{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+
+.side-card button{
+    width:100%;
+    margin-top:10px;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    background:#2563eb;
+    color:white;
+    cursor:pointer;
+}
+
+.center-content{
+    width:100%;
+}
